@@ -1,0 +1,27 @@
+# Core
+python==3.10
+
+# Torch and CUDA (install compatible version for your system manually if needed)
+torch>=1.10.0
+torchvision>=0.11.0
+torchaudio>=0.10.0
+
+# Torchreid and dependencies
+torchreid
+gdown
+tensorboard
+
+# YOLOv5/YOLOv11 dependencies (Ultralytics)
+ultralytics>=8.0.0  # Covers YOLOv11
+opencv-python
+numpy
+matplotlib
+
+# Re-ID similarity and visualization
+scikit-learn
+scipy
+pillow
+seaborn
+
+# Optional (for tqdm progress bars and path handling)
+tqdm
